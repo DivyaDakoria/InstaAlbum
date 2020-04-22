@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2361d51841b042e983864d38e858cb45" Name="Diagram1" ZoomLevel="111">
+        <EntityTypeShape EntityType="InstaAlbumModel.tblBranch" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblCategory" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblCity" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblCustomer" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblFeedback" Width="1.5" PointX="8.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblGallery" Width="1.5" PointX="5.25" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblOrder" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblPackage" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblPhotographer" Width="1.5" PointX="8.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblSelfiePoint" Width="1.5" PointX="8.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblState" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstaAlbumModel.tblStudioAdmin" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblBranch_tblStudioAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblOrder_tblBranch" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblPackage_tblBranch" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblPhotographer_tblBranch" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblCategory_tblStudioAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblGallery_tblCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblPackage_tblCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblCity_tblState" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblCustomer_tblStudioAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblFeedback_tblCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblGallery_tblCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblOrder_tblCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblSelfiePoint_tblCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblFeedback_tblStudioAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblGallery_tblStudioAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblOrder_tblPackage" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblPhotographer_tblStudioAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="InstaAlbumModel.FK_tblSelfiePoint_tblStudioAdmin" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
