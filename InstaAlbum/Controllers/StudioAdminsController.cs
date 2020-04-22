@@ -14,6 +14,12 @@ namespace InstaAlbum.Controllers
     {
         private InstaAlbumEntities db = new InstaAlbumEntities();
 
+
+        public List<tblStudioAdmin> getAllAdmin()
+        {
+            return db.tblStudioAdmins.ToList();
+        }
+
         // GET: StudioAdmins
         public ActionResult Index()
         {
